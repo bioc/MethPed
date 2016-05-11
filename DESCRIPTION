@@ -1,6 +1,6 @@
 Package: MethPed
 Type: Package
-Version: 1.1.0
+Version: 1.1.1
 Date: 2016-01-01
 Title: A DNA methylation classifier tool for the identification of
         pediatric brain tumor subtypes
