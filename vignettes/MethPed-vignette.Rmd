@@ -30,8 +30,9 @@ The __MethPed__ classifier of pediatric brain tumors presented in the MethPed ar
 
 The __MethPed__ package can be installed through Bioconductor
 ```r
-source("http://bioconductor.org/biocLite.R")
-biocLite("MethPed")
+if (!requireNamespace("BiocManager", quietly=TRUE))
+    install.packages("BiocManager")
+BiocManager::install("MethPed")
 ```
 The __MethPed__ classifier depends on the __randomForest__ package for random forest algorithm. If necessary this can be installed from CRAN.
 ```r
@@ -39,8 +40,9 @@ install.packages("randomForest")
 ```
 If there are missing values present in the data, the __impute__ package can be installed for missing data imputation. This is however optional and the user can use any algorithm for missing value imputation. 
 ```r
-source("http://bioconductor.org/biocLite.R")
-biocLite("impute")
+if (!requireNamespace("BiocManager", quietly=TRUE))
+    install.packages("BiocManager")
+BiocManager::install("impute")
 ```
 
 # Input data type and format for the __MethPed__ classifier
