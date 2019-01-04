@@ -1,6 +1,6 @@
 Package: MethPed
 Type: Package
-Version: 1.10.0
+Version: 1.10.1
 Date: 2016-01-01
 Title: A DNA methylation classifier tool for the identification of
         pediatric brain tumor subtypes
@@ -14,7 +14,7 @@ Depends: R (>= 3.0.0), Biobase
 Suggests: BiocStyle, knitr, markdown, impute
 Imports: randomForest, grDevices, graphics, stats
 VignetteBuilder: knitr
-biocViews: DNAMethylation, Classification, Epigenetics
+biocViews: ImmunoOncology, DNAMethylation, Classification, Epigenetics
 Encoding: UTF-8
 Description: Classification of pediatric tumors into biologically
         defined subtypes is challenging and multifaceted approaches are
